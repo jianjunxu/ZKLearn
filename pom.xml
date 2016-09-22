@@ -16,9 +16,15 @@
 		<spring.version>4.0.2.RELEASE</spring.version>
 		<mybatis.version>3.2.8</mybatis.version>
 		<rocketmq.version>3.1.1</rocketmq.version>
+		<log4j-version>1.2.9</log4j-version>
 	</properties>
 	<dependencies>
 		<!-- log begin -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j-version}</version>
+		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
